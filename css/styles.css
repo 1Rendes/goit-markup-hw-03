@@ -1,0 +1,168 @@
+body {
+    font-family:"Roboto", sans-serif;
+    color:#434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    background-color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a, a:focus, a:hover {
+    text-decoration: none;
+}
+
+.logo {
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo-studio-header {
+    color:#2E2F42;
+}
+
+.logo-studio-footer {
+    color:#F4F4FD;
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.header-contacts {
+    color: #434455;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+    color:#404BBF;
+}
+
+.header-nav {
+    color:#2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.header-nav:hover,
+.header-nav:focus {
+    color: #404BBF;
+}
+.main-page-descr {
+    color: #FFF;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    text-align: center;
+}
+
+.our-team-head {
+    color:#2E2F42;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.effective-solution {
+    background-color: #2E2F42;
+}
+
+.order-button {
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    background:#4D5AE5;
+}
+
+.order-button:hover,
+.order-button:focus {
+    background: #404BBF;
+    cursor: pointer;
+}
+
+.our-team {
+    background: #F4F4FD;
+}
+
+
+.benefits-title {
+    color: transparent;
+    font-size: 0px;
+}
+
+.benefits-headers {
+    color:#2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.benefits-listitem {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.our-team-list {
+    background-color: #FFFFFF;
+}
+
+.team-persons {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.team-persons-descr {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    
+}
+
+.portfolio-item-descr {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.footer-style {
+    background: #2E2F42;
+}
+
+.footer-text {
+    color:#F4F4FD;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}

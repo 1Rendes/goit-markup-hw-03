@@ -32,6 +32,10 @@ section {
     padding: 120px 0;
 }
 
+heade-borde {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .logo {
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
@@ -45,6 +49,7 @@ section {
 
 .logo-studio-header {
     color:#2E2F42;
+    margin-right: 76px;
 }
 
 .logo-studio-footer {
@@ -53,13 +58,14 @@ section {
 
 .header-address {
     font-style: normal;
+
 }
 
 
-.header-address ul {
+.header-address-ul {
     display: flex;
     justify-content: space-between;
-    min-width: 344px;
+    gap: 40px;
 }
 
 .header-contacts {
@@ -81,6 +87,7 @@ section {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    padding: 24px 0;
 }
 
 .header-nav:hover,
@@ -272,17 +279,16 @@ img {
 }
 
 .container {
-    max-width: 1440px;
-    padding-left: 156px;
-    padding-right: 156px;
+    width: 1158px;
+    margin: 0px auto;
+    padding: 0 15px;
 }
 
 .container-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25.5px 0;
-    
+    padding: 24px 0;
 }
 
 .cont-foote-item {
@@ -292,16 +298,17 @@ img {
     padding-bottom: 100px;
 }
 
-.container-logo-nav ul {
+.container-logo-nav-ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 40px;
+    padding-right: 332px;
 }
 
 .container-logo-nav {
     display: flex;
     justify-content: space-between;
-    width: 452px;
 }
 
 

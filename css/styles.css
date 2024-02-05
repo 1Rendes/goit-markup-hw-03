@@ -32,11 +32,13 @@ section {
     padding: 120px 0;
 }
 
-.heade-borde {
+.header-border {
     border-bottom: 1px solid #e7e9fc;
 }
 
-
+.header-border > .container {
+    display:flex;
+}
 
 .logo-header {
     display: inline;
@@ -64,6 +66,8 @@ section {
 
 .header-address {
     font-style: normal;
+    display: flex;
+    padding: 24px 0;
 }
 
 .contacts-list {
@@ -78,8 +82,8 @@ section {
     line-height: 1.5;
     letter-spacing: 0.32px;
     display: flex;
-        justify-content: space-between;
-        align-items: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-contacts:hover,
@@ -324,7 +328,6 @@ img {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     margin-bottom: 16px;
-    padding: 0;
 }
 
 .footer-text {

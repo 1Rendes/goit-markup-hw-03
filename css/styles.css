@@ -55,6 +55,13 @@ section {
     font-style: normal;
 }
 
+
+.header-address ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 344px;
+}
+
 .header-contacts {
     color: #434455;
     font-size: 16px;
@@ -285,22 +292,16 @@ img {
     padding-bottom: 100px;
 }
 
-.container-logo-nav {
-    display: flex;
-    justify-content: space-between;
-    width: 452px;
-}
-
-.container-nav {
+.container-logo-nav ul {
     display: flex;
     justify-content: space-between;
     gap: 40px;
 }
 
-.container-addr {
+.container-logo-nav {
     display: flex;
     justify-content: space-between;
-    min-width: 344px;
+    width: 452px;
 }
 
 

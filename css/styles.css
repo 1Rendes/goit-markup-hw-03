@@ -32,7 +32,7 @@ section {
     padding: 120px 0;
 }
 
-heade-borde {
+.heade-borde {
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -58,13 +58,13 @@ heade-borde {
 
 .header-address {
     font-style: normal;
-
+    display: flex;
+    gap: 40px;
 }
 
 
 .header-address-ul {
     display: flex;
-    justify-content: space-between;
     gap: 40px;
 }
 

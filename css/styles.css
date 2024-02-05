@@ -59,16 +59,11 @@ section {
     color:#F4F4FD;
 }
 
-.heade-addres {
+.header-address {
     font-style: normal;
 }
 
-.heade-addres-list {
-    display: flex;
-    gap: 40px;
-}
-
-.container-head-listitem {
+.contacts-list {
     display: flex;
     gap: 40px;
 }
@@ -118,6 +113,8 @@ section {
 
 
 .main-page-descr {
+    display: block;
+    margin: 0 auto;
     color: #FFF;
     font-size: 56px;
     font-style: normal;
@@ -125,8 +122,8 @@ section {
     line-height: 1.07;
     letter-spacing: 1.12px;
     text-align: center;
-    padding-top: 188px;
     padding-bottom: 48px;
+    max-width: 496px
 }
 
 .our-team-head {
@@ -141,17 +138,14 @@ section {
     padding-bottom: 72px;
 }
 
-.container-effective-solution {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .effective-solution {
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 
 .order-button {
+    display: block;
+    margin: 0 auto;
     color: #FFF;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -164,7 +158,8 @@ section {
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     padding: 16px 32px;
-    margin-bottom: 188px;
+    min-width: 169px;
+    height: 56px;
 }
 
 .order-button:hover,

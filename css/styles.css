@@ -45,25 +45,26 @@ section {
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .logo-studio-header {
     color:#2E2F42;
-    margin-right: 76px;
+    
 }
 
 .logo-studio-footer {
     color:#F4F4FD;
 }
 
-.header-address {
+.heade-addres {
     font-style: normal;
     display: flex;
     gap: 40px;
 }
 
 
-.header-address-ul {
+.heade-addres-list {
     display: flex;
     gap: 40px;
 }
@@ -280,8 +281,8 @@ img {
 
 .container {
     width: 1158px;
-    margin: 0px auto;
-    padding: 0 15px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 
 .container-head {
@@ -301,7 +302,6 @@ img {
 .container-logo-nav-ul {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     gap: 40px;
     padding-right: 332px;
 }
@@ -309,6 +309,7 @@ img {
 .container-logo-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 

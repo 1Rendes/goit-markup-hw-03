@@ -39,6 +39,7 @@ section {
 
 
 .logo {
+    display: inline-block;
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -48,6 +49,7 @@ section {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     margin-right: 76px;
+    margin-bottom: 16px;
 }
 
 .logo-studio-header {
@@ -124,6 +126,19 @@ section {
     text-align: center;
     padding-bottom: 48px;
     max-width: 496px
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .our-team-head {
@@ -244,6 +259,7 @@ section {
     display: flex;
     flex-wrap:wrap;
     gap: 24px;
+    row-gap: 48px;
     
 }
 
@@ -251,16 +267,27 @@ section {
     display: flex;
     flex-direction: column;
     gap: 0;
-    
     background: #fff;
     width: 360px;
     height: 420px;
-    margin-bottom: 8px;
 }
 
 .cont-portf-bord {
     border: 1px solid #E7E9FC;
     border-top: none;
+    padding: 32px 16px;
+    text-align: left;
+}
+
+.portfolio-header {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    margin-bottom: 8px;
+    text-align: left;
 }
 
 .cont-portfolio-item img {
@@ -273,14 +300,6 @@ img {
     max-width: 100%;
 }
 
-.cont-portfolio-item h3 {
-    padding: 32px 16px 8px;
-}
-
-.cont-portfolio-item p {
-    padding: 0 16px 32px;
-}
-
 .portfolio-item-descr {
     font-size: 16px;
     line-height: 1.5;
@@ -289,7 +308,7 @@ img {
 
 .footer-style {
     background: #2E2F42;
-    padding-top: 101.5px;
+    padding-top: 100px;
 }
 
 .footer-text {
@@ -297,6 +316,7 @@ img {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
+    max-width: 264px;
 }
 
 .container {
@@ -315,7 +335,6 @@ img {
 .cont-foote-item {
     display: flex;
     flex-direction: column;
-    gap: 17.5px;
     padding-bottom: 100px;
 }
 

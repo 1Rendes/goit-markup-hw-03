@@ -314,7 +314,7 @@ img {
 
 .footer-style {
     background: #2E2F42;
-    padding: 100px o;
+    padding: 100px 0;
 }
 
 .footer-header {
@@ -349,12 +349,6 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 24px 0;
-}
-
-.cont-foote-item {
-    display: flex;
-    flex-direction: column;
-    padding: 100px 0;
 }
 
 

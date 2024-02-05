@@ -61,12 +61,14 @@ section {
 
 .heade-addres {
     font-style: normal;
+}
+
+.heade-addres-list {
     display: flex;
     gap: 40px;
 }
 
-
-.heade-addres-list {
+.container-head-listitem {
     display: flex;
     gap: 40px;
 }
@@ -114,11 +116,6 @@ section {
     align-items: center;
 }
 
-.container-head-listitem {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .main-page-descr {
     color: #FFF;

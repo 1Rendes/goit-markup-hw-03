@@ -68,6 +68,7 @@ section {
     font-style: normal;
     display: flex;
     padding: 24px 0;
+    margin-left: auto;
 }
 
 .contacts-list {
@@ -109,8 +110,8 @@ section {
 .container-logo-nav-ul {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
-    padding-right: 332px;
+    gap: 40px; 
+    margin-right: auto;
 }
 
 .container-logo-nav {
